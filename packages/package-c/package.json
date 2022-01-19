@@ -1,0 +1,10 @@
+{
+  "name": "package-c",
+  "scripts": {
+    "build": "echo Package C depends on D"
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "package-d": "workspace:*"
+  }
+}

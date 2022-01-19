@@ -1,0 +1,38 @@
+Arguments: 
+  /home/laurens/.nvm/versions/node/v14.17.6/bin/node /home/laurens/.nvm/versions/node/v14.17.6/bin/yarn set version stable
+
+PATH: 
+  /home/laurens/.autojump/bin:/home/laurens/.nvm/versions/node/v14.17.6/bin:/home/laurens/bin:/home/laurens/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.6
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Release not found: stable
+      at /home/laurens/.nvm/versions/node/v14.17.6/lib/node_modules/yarn/lib/cli.js:90309:17
+      at Generator.next (<anonymous>)
+      at step (/home/laurens/.nvm/versions/node/v14.17.6/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/laurens/.nvm/versions/node/v14.17.6/lib/node_modules/yarn/lib/cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+npm manifest: 
+  {
+    "name": "yarn-workspace-foreach-topological-repro",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:LaurensUP/yarn-workspace-foreach-topological-repro.git",
+    "author": "Laurens <laurens.decock@unifiedpost.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

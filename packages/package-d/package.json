@@ -1,0 +1,7 @@
+{
+  "name": "package-d",
+  "scripts": {
+    "build": "echo Package D"
+  },
+  "packageManager": "yarn@3.1.1"
+}
